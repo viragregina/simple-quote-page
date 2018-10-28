@@ -39,3 +39,37 @@ p {
     font-size: 1.5rem;
     font-style: italic;
 }
+
+@media (max-width: 800px) {
+  
+  p{
+    margin-block-start: 5em;
+  }
+  
+  .quote {    
+    font-size: 1.4rem;
+  }
+  
+  .author {  
+    font-size: 1.5rem;
+    margin-block-start: 2em;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  
+  p{
+    margin-block-start: 5em;
+  }
+  
+  .quote {    
+    font-size: 2rem;
+  }
+  
+  .author {  
+    font-size: 1.5rem;
+    margin-block-start: 2em;
+  }
+
+}
